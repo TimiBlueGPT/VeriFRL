@@ -86,8 +86,6 @@ This project provides a wide range of configurable parameters (e.g., hyper-param
 
 To see the full list of available arguments and their default values, run:
 
-Bash
-
 ```
 python main.py --help
 ```
@@ -119,4 +117,4 @@ This project is licensed under the **Apache License 2.0**.
 
 ## ✉️ Contact
 
-For any questions, please open an **Issue** or contact `your_email@domain.com`.
+For any questions, please open an **Issue** or contact `tao.tang@ieee.org`.

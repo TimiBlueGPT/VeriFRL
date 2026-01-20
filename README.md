@@ -6,15 +6,13 @@ This is the official PyTorch implementation of the paper **"Verifiable Federated
 
 <b>English</b> | <a href="README_zh.md">中文</a>
 
-</p>
+
 
 ------
 
 ## 🛠️ Environment Setup
 
 We recommend using `Conda` to manage your environment.
-
-Bash
 
 ```
 # Create and activate the environment
@@ -28,8 +26,6 @@ pip install -r requirements.txt
 ------
 
 ## 📂 Project Structure
-
-Plaintext
 
 ```
 .
@@ -50,8 +46,6 @@ Plaintext
 
 2. Organize the data as follows:
 
-   Plaintext
-
    ```
    data/data_domain/
    ├── item_users.txt
@@ -71,8 +65,6 @@ Plaintext
 ###  Training & Validation
 
 Our `train.py` script handles both training and periodic validation. To start the process, run:
-
-Bash
 
 ```
 python main.py Food Kitchen Clothing Beauty [--id 01] [--load_prep] [--method VeriFRL_Fed]
@@ -106,8 +98,6 @@ python main.py --help
 
 If you find our work useful in your research, please consider citing:
 
-Code snippet
-
 ```
 @inproceedings{tang2026verifiable,
   title={Verifiable Federated Representation Learning for Cross-domain Sequential Recommendation},
@@ -123,7 +113,7 @@ Code snippet
 
 ## 📄 License
 
-This project is licensed under the **Apache License 2.0**. 
+This project is licensed under the **Apache License 2.0**. See the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
 
 ------
 

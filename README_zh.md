@@ -111,7 +111,7 @@
 
    ## 📄 开源协议
 
-   本项目采用 **Apache License 2.0** 协议开源。详情请参阅 [LICENSE](https://www.apache.org/licenses/LICENSE-2.0.txt) 文件。
+   本项目采用 **Apache License 2.0** 协议开源。
 
    ------
 

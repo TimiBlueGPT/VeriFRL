@@ -113,7 +113,7 @@ If you find our work useful in your research, please consider citing:
 
 ## 📄 License
 
-This project is licensed under the **Apache License 2.0**. See the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+This project is licensed under the **Apache License 2.0**. 
 
 ------
 

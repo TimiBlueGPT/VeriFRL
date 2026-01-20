@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 ## 💾 数据准备
 
-1. 从 [此链接](https://drive.google.com/file/d/12pG34Gd-j_92RbBMYATrSYgps8vJWgPZ/view?usp=drive_link) 下载数据集。
+1. 获取数据集： 本项目遵循 [FedDCSR](https://github.com/orion-orion/FedDCSR) 的数据预处理流程。您可以从其 [官方仓库 ](https://github.com/orion-orion/FedDCSR)中获取预处理好的数据集。
 
 2. 请按以下结构组织数据：
 

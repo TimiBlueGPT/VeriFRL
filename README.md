@@ -3,7 +3,6 @@
 This is the official PyTorch implementation of the paper **"Verifiable Federated Representation Learning for Cross-domain Sequential Recommendation"**, accepted by **The ACM Web Conference 2026 (WWW '26)**.
 
 <p align="center">
-
 <b>English</b> | <a href="README_zh.md">中文</a>
 
 
@@ -42,7 +41,7 @@ pip install -r requirements.txt
 
 ## 💾 Data Preparation
 
-1. Download the dataset from [https://drive.google.com/file/d/12pG34Gd-j_92RbBMYATrSYgps8vJWgPZ/view?usp=drive_link].
+1. Get the Dataset: We follow the data preprocessing protocols of [FedDCSR](https://github.com/orion-orion/FedDCSR). The preprocessed datasets can be obtained from their [official repository](https://github.com/orion-orion/FedDCSR).
 
 2. Organize the data as follows:
 

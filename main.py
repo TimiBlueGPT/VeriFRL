@@ -147,10 +147,10 @@ def main():
 
     init_logger(args)
 
-    train_datasets, valid_datasets, test_datasets,tracin_dataset, adjs = load_dataset(args)
+    train_datasets, valid_datasets, test_datasets,tracin_dataset, adjs, adjs_tracin = load_dataset(args)
 
     n_clients = len(args.domains)
-    clients = [Client(ModelTrainer, c_id, args, adjs[c_id],
+    clients = [Client(ModelTrainer, c_id, args, adjs[c_id],adjs_tracin[c_id],
                       train_datasets[c_id], valid_datasets[c_id],
                       test_datasets[c_id],tracin_dataset[c_id]) for c_id in range(n_clients)]
     init_clients_weight(clients)
